@@ -1,8 +1,18 @@
-= DESCRIPTION:
+Description
+===========
 
-Installs trac software and creates an environment with an Apache2 virtual host.
+Installs trac software and creates an environment with an Apache2
+virtual host.
 
-= USAGE:
+Changes
+=======
+
+## v0.1.1:
+
+* Current public release.
+
+Usage
+=====
 
 Include the recipe 'trac' in the run list.
 
@@ -10,9 +20,11 @@ This cookbook does not:
 
 - Set up the subversion repository
 
-You may also need to enable the authentication mechanism of your preference in the trac.conf.erb template.
+You may also need to enable the authentication mechanism of your
+preference in the trac.conf.erb template.
 
-= LICENSE AND AUTHOR:
+License and Author
+==================
 
 Copyright 2009, Peter Crossley <peterc@xley.com>
 
